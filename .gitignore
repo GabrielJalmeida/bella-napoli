@@ -4,11 +4,18 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
 
 # Environment
 .env
-backend/.env
+
+# Coverage
+.coverage
+htmlcov/
 
 # Frontend
 frontend/node_modules/
 frontend/dist/
+
+# Local developer utilities
+backend/abrir_banco.bat
